@@ -7,14 +7,14 @@ public class Celsius {
         
         double celsius, fahrenheit;
         
-        System.out.println("Enter the temperature in Celsius");
+        System.out.println("Enter the temperature in Celsius: ");
         celsius = scnr.nextDouble();
 
         fahrenheit = celsius * 9/5 + 32;
 
-        System.out.println("\nTemperature in Celsiur");
+        System.out.println("\nTemperature in Celsius:");
         System.out.println(celsius);
-        System.out.println("Temperature in Fahrenheit");
+        System.out.println("Temperature in Fahrenheit:");
         System.out.println(fahrenheit);
    
     }
