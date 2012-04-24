@@ -1,0 +1,17 @@
+The software should be accessible via a command-line application named something like "conversion" or "convert".
+
+The software should be able to convert between Fahrenheit and Celsius, in either direction.
+
+This conversion should be possible entirely through parameters passed in at the command line.
+
+The command-line syntax should be something like this:
+convert [unit of temperature measurement] [temperature numeric value]
+
+Examples:
+To convert from 32 degrees Fahrenheit to Celsius -
+convert f 32
+(should produce 0)
+
+To convert from 100 degrees Celsius to Fahrenheit -
+convert c 100
+(should produce 212)
