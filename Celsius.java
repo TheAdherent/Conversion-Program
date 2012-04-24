@@ -2,8 +2,8 @@ package conversion;
 import java.util.Scanner;
 
 public class Celsius {
-    void Process() {
-    Scanner scnr = new Scanner(System.in);
+	void Process() {
+	Scanner scnr = new Scanner(System.in);
 
 	double celsius, fahrenheit;
 
@@ -16,5 +16,5 @@ public class Celsius {
 	System.out.println(celsius);
 	System.out.println("Temperature in Fahrenheit:");
 	System.out.println(fahrenheit);
-    }
+	}
 }
