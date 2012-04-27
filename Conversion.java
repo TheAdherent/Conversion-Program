@@ -1,17 +1,27 @@
+/*
+ * Conversion
+ *
+ * Version 0.1
+ *
+ */
+
 package conversion;
 import java.util.Scanner;
-
 public class Conversion {
+    
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        Celsius ctof = new Celsius();
+        String choice;
+        
+        System.out.println("What would you like to convert?");
+        System.out.println("Type f for Fahrenheit and c for Celsius.");
+        choice = scnr.next();
+        if (choice.equals("c") || choice.equals("C")) {ctof.ConvertCelsius();}
 
-	public static void main(String[] args) {
-	Scanner scnr = new Scanner(System.in);
-	Celsius ctof = new Celsius();
-	String choice;
+        if (choice.equals("f") || choice.equals("F")) {ctof.ConvertFahrenheit();}
 
-	System.out.println("Would you like to convert Celsius to Fahrenheit? yes/no");
-	choice = scnr.next();
+        else {System.out.println("Sorry, input not recognized.");}
 
-	if (choice.equals("yes")) ctof.Process();
-	if (choice.equals("no")) System.out.println("Well, fine then!");
-	}
+    }
 }
