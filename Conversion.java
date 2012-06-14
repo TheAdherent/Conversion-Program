@@ -20,9 +20,9 @@ public class Conversion {
 	System.out.println("Type f for Fahrenheit and c for Celsius.");
 	choice = scnr.next();
 
-	if (choice.equals("c") || choice.equals("C")) {ctof.ConvertCelsius();}
+	if(choice.equals("c") || choice.equals("C")) {ctof.ConvertCelsius();}
 
-	if (choice.equals("f") || choice.equals("F")) {ctof.ConvertFahrenheit();}
+	if(choice.equals("f") || choice.equals("F")) {ctof.ConvertFahrenheit();}
 
 	else {System.out.println("Sorry, input not recognized.");}
     }
