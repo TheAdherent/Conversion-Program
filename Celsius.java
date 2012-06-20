@@ -1,7 +1,6 @@
 package conversion;
 import java.util.Scanner;
 
-
 public class Celsius {
     void ConvertCelsius() {
 	Scanner scnr = new Scanner(System.in);
